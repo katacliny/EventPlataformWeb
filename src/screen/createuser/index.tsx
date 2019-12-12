@@ -14,29 +14,31 @@ export default function Createuser() {
       <div className="">
         <label>createuser</label>
         <table>
-          <tr>
+          <tbody>
+            <tr>
+                <td>
+                  <label htmlFor="">Email</label>
+                  <input type="text"/>
+                </td>
+            </tr>
+            <tr>
               <td>
-                <label htmlFor="">Email</label>
+                <label htmlFor="">Username</label>
                 <input type="text"/>
               </td>
-          </tr>
-          <tr>
-            <td>
-              <label htmlFor="">Username</label>
-              <input type="text"/>
-            </td>
-          </tr>
-          <tr>
-             <td>
-                <label htmlFor="">Password</label>
-                <input type="password"/>
+            </tr>
+            <tr>
+              <td>
+                  <label htmlFor="">Password</label>
+                  <input type="password"/>
+                </td>
+            </tr>
+            <tr>
+              <td>
+                <button>Create User</button> 
               </td>
-          </tr>
-          <tr>
-             <td>
-               <button>Create User</button> 
-             </td>
-          </tr>
+            </tr>
+          </tbody>
         </table>
       </div>
     );
